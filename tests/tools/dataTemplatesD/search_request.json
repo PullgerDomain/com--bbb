@@ -1,0 +1,14 @@
+[
+        {
+          "id_name_city": "boston",
+          "id_iso_country": "us",
+          "id_iso_state": "ma",
+          "id_name_category": "food-and-beverage-services"
+        },
+        {
+          "id_name_city": "tustin",
+          "id_iso_country": "us",
+          "id_iso_state": "ca",
+          "id_name_category": "online-retailer"
+        }
+]

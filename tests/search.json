@@ -1,0 +1,40 @@
+{
+  "code_sequence": {
+    "list": [
+      {
+        "code_string": "session = unitOperationsMSM.add_new_session_selenium_standard(self)",
+        "uuid": "3e573617-00d6-4106-b655-2558292f543e"
+      },
+      {
+        "code_string": "search.SearchDomain(session=session, library_reloading=True).get(**dataTemplatesD.search_request_data())",
+        "uuid": "7d74e17f-7df8-4e0d-bdef-731e2650d4e3"
+      },
+      {
+        "code_string": "pull_result = search.SearchDomain(session=session, library_reloading=True).pull()",
+        "uuid": "daa2593c-72af-4541-bfb7-e0bbfc7a0380"
+      }
+    ]
+  },
+  "libraries": {
+    "list": [
+      {
+        "as_name": null,
+        "element_name": "unitOperationsMSM",
+        "from_path": "pullgerMultiSessionManager.tests.tools",
+        "uuid": "f05075c8-4d6b-43b6-813e-d9a81cd1fb7f"
+      },
+      {
+        "as_name": null,
+        "element_name": "search",
+        "from_path": "pullgerDomain.org.bbb",
+        "uuid": "709f2d65-40f4-42cd-a881-61ade09c02b6"
+      },
+      {
+        "as_name": null,
+        "element_name": "dataTemplatesD",
+        "from_path": "pullgerDomain.org.bbb.tests.tools",
+        "uuid": "3c9577b5-cc9c-4809-a5a2-2ac7791d0a4e"
+      }
+    ]
+  }
+}
